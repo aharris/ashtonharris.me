@@ -6,6 +6,15 @@
 <link rel="stylesheet" href="javascript/flexslider.css" type="text/css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 <script src="javascript/jquery.flexslider.js"></script>
+
+<script type="text/javascript" charset="utf-8">
+  $(window).load(function() {
+    $('.flexslider').flexslider({
+          animation: "slide",
+          controlsContainer: ".flex-container"
+    });
+  });
+</script>
 </head>
 <body>
   <header>
@@ -33,6 +42,27 @@
   </header>
   <div class="contentWrap">
     <!--slider-->
+    <div class="flex-container">
+    <div class="flexslider">
+      <ul class="slides">
+        <li>
+          <a href="#">
+          <img src="images/slide1.jpg" />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+          <img src="images/slide2.jpg" />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+          <img src="images/slide3.jpg" />
+          </a>
+        </li>
+      </ul>
+    </div>
+    </div>
     <div class="featured">
       <h3>//Featured Work</h3>
       <ul class="featuredWork">
