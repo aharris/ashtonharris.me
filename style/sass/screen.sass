@@ -4,6 +4,7 @@
 //FONTS
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800)
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic)
+@import url(http://fonts.googleapis.com/css?family=Magra:400,700)
 
 //VARIABLES
 $defaultFont: 'Open Sans', sans-serif
@@ -34,14 +35,15 @@ hr
     visibility: hidden
 
 .contentWrap
-  margin: 0 auto
+  margin: 0 auto 20px
   width: 90%
-  max-width: 1200px
+  max-width: 1140px
   padding: 20px 2%
 
 //Links
 a
   font-family: $defaultFont
+  text-decoration: none
 
 //HEADER
 header
@@ -57,30 +59,102 @@ header
     h2
       color: #fff
       font-size: 1em
-      font-weight: 400
+      font-weight: 200
       text-transform: uppercase
-  #nav
-    float: right
-    li
-      display: inline
-      font-size: 1.4em
-      margin: 15px
-      a
-        color: #fff
-        text-decoration: none
-        &:active, &:hover
-          color: #30b51f
 
+//NAVIGATION
+#nav
+  float: right
+  li
+    +inline-block
+    font-size: 1.4em
+    margin: 15px
+    padding-top: 10px
+    a
+      color: #fff
+      text-decoration: none
+      padding-top: 15px
+      &:active, &:hover
+        color: #30b51f
+    &.active 
+      a
+        @extend a:active
+        &.work
+          background: url('../../images/work_icon.png') no-repeat scroll 50% 0%
+          width: 22px
+          height: 20px
+        &.resume
+          background: url('../../images/resume_icon.png') no-repeat scroll 50% 0%
+          width: 22px
+          height: 20px
+        &.contact
+          background: url('../../images/contact_icon.png') no-repeat scroll 50% 0%
+          width: 22px
+          height: 20px
+
+//FLEX SLIDER
+.flexWrapper
+  background: #fff
+  +box-shadow(inset 0 0 5px 0 #ccc)
+  +border-radius(10px)
+  padding: 30px 3%
+  .flex-container
+    background: #f5f7f6
+    +box-shadow(1px 1px 3px 1px #ccc)
+    +border-radius(10px)
+    padding: 5%
+
+//FEATURED WORK
+.featured
+  h3
+    color: #141720
+    font-weight: 700
+    font-size: 1.2em
+    .comments
+      font-size: 1.5em
+      color: #84878b
+//RESUME
+.indent
+  @extend .flexWrapper
+  .content
+    background: #f5f7f6
+    +box-shadow(1px 1px 3px 1px #ccc)
+    +border-radius(10px)
+    padding: 5%
+      
 //FOOTER
 .contactInfo
   float: left
-  width: 50%
+  width: 40%
   text-align: right
+  margin: 0 5%
   a
     color: #525252
     text-decoration: none
     display: block
     
+.mediaList
+  float: right
+  width: 40%
+  text-align: left
+  margin: 0 5%
+  li
+    display: inline
+    margin: 5px
+    a
+      +inline-block
+      background: #9b9da0
+      +border-radius(40px)
+      padding: 10px
+      &.facebook
+        &:hover, &:active
+          background: #39599f
+      &.twitter
+        &:hover, &:active
+          background: #45b0e3
+      &.linkedin
+        &:hover, &:active
+          background: #82c6da
     
     
     
