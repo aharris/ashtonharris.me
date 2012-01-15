@@ -3,9 +3,9 @@
 <head>
 <title>Ashton Harris</title>  
 <link href="style/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
-<link rel="stylesheet" href="flexslider.css" type="text/css">
+<link rel="stylesheet" href="javascript/flexslider.css" type="text/css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-<script src="jquery.flexslider.js"></script>
+<script src="javascript/jquery.flexslider.js"></script>
 </head>
 <body>
   <header>
