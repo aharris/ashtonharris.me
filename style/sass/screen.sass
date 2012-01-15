@@ -1,2 +1,91 @@
 @import compass/reset
 @import compass/css3
+
+//FONTS
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800)
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic)
+
+//VARIABLES
+$defaultFont: 'Open Sans', sans-serif
+$headerFont: 'Lato', sans-serif
+
+//CONTENT
+body
+  font-family: $defaultFont
+  color: #141720
+  background: #f5f7f6
+
+h1, h2, h3
+  font-family: $headerFont
+  
+strong
+  font-weight:  bold
+
+hr
+  color: #6e7176
+//CLEAR FLOATS
+.contentWrap
+  &:after
+    content: "\0020"
+    display: block
+    height: 0
+    clear: both
+    overflow: hidden
+    visibility: hidden
+
+.contentWrap
+  margin: 0 auto
+  width: 90%
+  max-width: 1200px
+  padding: 20px 2%
+
+//Links
+a
+  font-family: $defaultFont
+
+//HEADER
+header
+  background: #141720
+  #logo
+    float: left
+    h1
+      color: #fff
+      font-size: 2em
+      font-weight: 700
+      .darker
+        color: #9b9da0
+    h2
+      color: #fff
+      font-size: 1em
+      font-weight: 400
+      text-transform: uppercase
+  #nav
+    float: right
+    li
+      display: inline
+      font-size: 1.4em
+      margin: 15px
+      a
+        color: #fff
+        text-decoration: none
+        &:active, &:hover
+          color: #30b51f
+
+//FOOTER
+.contactInfo
+  float: left
+  width: 50%
+  text-align: right
+  a
+    color: #525252
+    text-decoration: none
+    display: block
+    
+    
+    
+    
+    
+    
+    
+    
+//END    
