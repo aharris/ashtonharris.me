@@ -110,9 +110,41 @@ header
     color: #141720
     font-weight: 700
     font-size: 1.2em
+    margin-bottom: 20px
     .comments
       font-size: 1.5em
       color: #84878b
+      
+.featuredWork
+  text-align: center
+  li
+    +inline-block
+    //border: 8px solid #141720
+    width: 22%
+    margin: 1%
+    a
+      display: block
+      background: #141720
+      height: 100%
+      text-indent: -1000000px
+      background-size: 90% auto
+      &.featured_1
+        background: #141720 url('../../images/featured/movitas_logo.png') no-repeat scroll 50% 50%
+        &:active, &:hover
+          background: #141720 url('../../images/featured/movitas_img.png') no-repeat scroll 50% 50%
+      &.featured_2
+        background: #141720 url('../../images/featured/traveler_connect_logo.png') no-repeat scroll 50% 50%
+        &:active, &:hover
+          background: #141720 url('../../images/featured/traveler_connect_img.png') no-repeat scroll 50% 50%
+      &.featured_3
+        background: #141720 url('../../images/featured/avaya_logo.png') no-repeat scroll 50% 50%
+        &:active, &:hover
+          background: #141720 url('../../images/featured/avaya_img.png') no-repeat scroll 50% 50%
+      &.featured_4
+        background: #141720 url('../../images/featured/media_giraffes_logo.png') no-repeat scroll 50% 50%
+        &:active, &:hover
+          background: #141720 url('../../images/featured/media_giraffes_img.png') no-repeat scroll 50% 50%
+      
 //RESUME
 .indent
   @extend .flexWrapper
@@ -156,8 +188,19 @@ header
         &:hover, &:active
           background: #82c6da
     
-    
-    
+html, body
+  height: 100% !important
+  position: relative !important
+
+.container
+  min-height: 99%
+
+
+footer
+  position: absolute
+  bottom: -10px
+  width: 100%
+
     
     
     

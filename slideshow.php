@@ -5,19 +5,16 @@
       <div class="flexslider">
         <ul class="slides">
           <li>
-            <a href="#">
-            <img src="images/slide2.jpg" />
-            </a>
-          </li>
-          <li>
-            <a href="#">
             <img src="images/slide1.jpg" />
-            </a>
+            <p class="flex-caption">Responsive Web Design</p>
           </li>
           <li>
-            <a href="#">
+            <img src="images/slide2.jpg" />
+            <p class="flex-caption">iPhone and Android App Design</p>
+          </li>
+          <li>
             <img src="images/slide3.jpg" />
-            </a>
+            <p class="flex-caption">Custom Wordpress Sites</p>
           </li>
         </ul>
       </div><!-- End flexslider -->
