@@ -262,41 +262,47 @@ header #logo h2 {
   height: 100%;
   text-indent: -1000000px;
   background-size: 90% auto;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  border-radius: 10px;
 }
-/* line 136, ../sass/screen.sass */
+/* line 137, ../sass/screen.sass */
 .featuredWork li a.featured_1 {
   background: #141720 url("../../images/featured/movitas_logo.png") no-repeat scroll 50% 50%;
 }
-/* line 138, ../sass/screen.sass */
+/* line 139, ../sass/screen.sass */
 .featuredWork li a.featured_1:active, .featuredWork #nav li.active a.featured_1, #nav .featuredWork li.active a.featured_1, .featuredWork li a.featured_1:hover {
   background: #141720 url("../../images/featured/movitas_img.png") no-repeat scroll 50% 50%;
 }
-/* line 140, ../sass/screen.sass */
+/* line 141, ../sass/screen.sass */
 .featuredWork li a.featured_2 {
   background: #141720 url("../../images/featured/traveler_connect_logo.png") no-repeat scroll 50% 50%;
 }
-/* line 142, ../sass/screen.sass */
+/* line 143, ../sass/screen.sass */
 .featuredWork li a.featured_2:active, .featuredWork #nav li.active a.featured_2, #nav .featuredWork li.active a.featured_2, .featuredWork li a.featured_2:hover {
   background: #141720 url("../../images/featured/traveler_connect_img.png") no-repeat scroll 50% 50%;
 }
-/* line 144, ../sass/screen.sass */
+/* line 145, ../sass/screen.sass */
 .featuredWork li a.featured_3 {
   background: #141720 url("../../images/featured/avaya_logo.png") no-repeat scroll 50% 50%;
 }
-/* line 146, ../sass/screen.sass */
+/* line 147, ../sass/screen.sass */
 .featuredWork li a.featured_3:active, .featuredWork #nav li.active a.featured_3, #nav .featuredWork li.active a.featured_3, .featuredWork li a.featured_3:hover {
   background: #141720 url("../../images/featured/avaya_img.png") no-repeat scroll 50% 50%;
 }
-/* line 148, ../sass/screen.sass */
+/* line 149, ../sass/screen.sass */
 .featuredWork li a.featured_4 {
   background: #141720 url("../../images/featured/media_giraffes_logo.png") no-repeat scroll 50% 50%;
 }
-/* line 150, ../sass/screen.sass */
+/* line 151, ../sass/screen.sass */
 .featuredWork li a.featured_4:active, .featuredWork #nav li.active a.featured_4, #nav .featuredWork li.active a.featured_4, .featuredWork li a.featured_4:hover {
   background: #141720 url("../../images/featured/media_giraffes_img.png") no-repeat scroll 50% 50%;
 }
 
-/* line 156, ../sass/screen.sass */
+/* line 157, ../sass/screen.sass */
 .indent .content {
   background: #f5f7f6;
   -moz-box-shadow: 1px 1px 3px 1px #cccccc;
@@ -312,33 +318,33 @@ header #logo h2 {
   padding: 5%;
 }
 
-/* line 163, ../sass/screen.sass */
+/* line 164, ../sass/screen.sass */
 .contactInfo {
   float: left;
   width: 40%;
   text-align: right;
   margin: 0 5%;
 }
-/* line 168, ../sass/screen.sass */
+/* line 169, ../sass/screen.sass */
 .contactInfo a {
   color: #525252;
   text-decoration: none;
   display: block;
 }
 
-/* line 173, ../sass/screen.sass */
+/* line 174, ../sass/screen.sass */
 .mediaList {
   float: right;
   width: 40%;
   text-align: left;
   margin: 0 5%;
 }
-/* line 178, ../sass/screen.sass */
+/* line 179, ../sass/screen.sass */
 .mediaList li {
   display: inline;
   margin: 5px;
 }
-/* line 181, ../sass/screen.sass */
+/* line 182, ../sass/screen.sass */
 .mediaList li a {
   display: -moz-inline-box;
   -moz-box-orient: vertical;
@@ -358,15 +364,15 @@ header #logo h2 {
 .mediaList li a {
   *display: inline;
 }
-/* line 187, ../sass/screen.sass */
+/* line 188, ../sass/screen.sass */
 .mediaList li a.facebook:hover, .mediaList li a.facebook:active, .mediaList #nav li.active a.facebook, #nav .mediaList li.active a.facebook {
   background: #39599f;
 }
-/* line 190, ../sass/screen.sass */
+/* line 191, ../sass/screen.sass */
 .mediaList li a.twitter:hover, .mediaList li a.twitter:active, .mediaList #nav li.active a.twitter, #nav .mediaList li.active a.twitter {
   background: #45b0e3;
 }
-/* line 193, ../sass/screen.sass */
+/* line 194, ../sass/screen.sass */
 .mediaList li a.linkedin:hover, .mediaList li a.linkedin:active, .mediaList #nav li.active a.linkedin, #nav .mediaList li.active a.linkedin {
   background: #82c6da;
 }
