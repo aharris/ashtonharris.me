@@ -3,7 +3,7 @@
     <hr/>
     <hr/>
     <div class="contactInfo">
-      <a href="mailto:ahdesignsonline@gmail.com">ahdesignsonline@gmail.com</a><br/>
+      <a href="mailto:ashtonharris.me@gmail.com">ashtonharris.me@gmail.com</a><br/>
       <a href="tel:6103348786">610 334 8786</a>
     </div> <!-- End contentWrap -->
     <div class="socialMedia">
