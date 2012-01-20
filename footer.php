@@ -2,10 +2,6 @@
   <div class="contentWrap">
     <hr/>
     <hr/>
-    <div class="contactInfo">
-      <a href="mailto:ashtonharris.me@gmail.com">ashtonharris.me@gmail.com</a><br/>
-      <a href="tel:6103348786">610 334 8786</a>
-    </div> <!-- End contentWrap -->
     <div class="socialMedia">
       <ul class="mediaList">
         <li>
@@ -25,6 +21,11 @@
         </li>
       </ul>
     </div> <!-- End socialMedia -->
+    <div class="contactInfo">
+      <a href="mailto:ashtonharris.me@gmail.com">ashtonharris.me@gmail.com</a><br/>
+      <a href="tel:6103348786">610 334 8786</a>
+    </div><!-- End contactInfo -->
+  </div><!-- End contentWrap -->  
 </footer>
 </body>
 </html>

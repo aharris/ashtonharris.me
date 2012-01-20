@@ -211,29 +211,23 @@ header #logo {
   float: left;
   width: 50%;
 }
-@media only screen and (max-width: 800px) {
-  /* line 92, ../sass/screen.sass */
-  header #logo {
-    width: 100%;
-  }
-}
-/* line 97, ../sass/screen.sass */
+/* line 95, ../sass/screen.sass */
 header #logo img {
   float: left;
   margin-right: 10px;
 }
-/* line 100, ../sass/screen.sass */
+/* line 98, ../sass/screen.sass */
 header #logo h1 {
   color: white;
   font-size: 2em;
   font-weight: 700;
   margin-top: 16px;
 }
-/* line 105, ../sass/screen.sass */
+/* line 103, ../sass/screen.sass */
 header #logo h1 .darker {
   color: #9b9da0;
 }
-/* line 107, ../sass/screen.sass */
+/* line 105, ../sass/screen.sass */
 header #logo h2 {
   color: white;
   font-size: 1em;
@@ -241,11 +235,11 @@ header #logo h2 {
   text-transform: uppercase;
 }
 
-/* line 114, ../sass/screen.sass */
+/* line 112, ../sass/screen.sass */
 #nav {
   float: right;
 }
-/* line 116, ../sass/screen.sass */
+/* line 114, ../sass/screen.sass */
 #nav li {
   display: -moz-inline-box;
   -moz-box-orient: vertical;
@@ -260,36 +254,36 @@ header #logo h2 {
 #nav li {
   *display: inline;
 }
-/* line 121, ../sass/screen.sass */
+/* line 119, ../sass/screen.sass */
 #nav li a {
   color: white;
   text-decoration: none;
   padding-top: 15px;
 }
-/* line 125, ../sass/screen.sass */
+/* line 123, ../sass/screen.sass */
 #nav li a:active, #nav li.active a, #nav li a:hover {
   color: #30b51f;
 }
-/* line 130, ../sass/screen.sass */
+/* line 128, ../sass/screen.sass */
 #nav li.active a.work {
   background: url("../../images/work_icon.png") no-repeat scroll 50% 0%;
   width: 22px;
   height: 20px;
 }
-/* line 134, ../sass/screen.sass */
+/* line 132, ../sass/screen.sass */
 #nav li.active a.resume {
   background: url("../../images/resume_icon.png") no-repeat scroll 50% 0%;
   width: 22px;
   height: 20px;
 }
-/* line 138, ../sass/screen.sass */
+/* line 136, ../sass/screen.sass */
 #nav li.active a.contact {
   background: url("../../images/contact_icon.png") no-repeat scroll 50% 0%;
   width: 22px;
   height: 20px;
 }
 
-/* line 144, ../sass/screen.sass */
+/* line 142, ../sass/screen.sass */
 .flexWrapper, .indent {
   background: white;
   -moz-box-shadow: inset 0 0 5px 0 #cccccc;
@@ -304,7 +298,7 @@ header #logo h2 {
   border-radius: 10px;
   padding: 30px 3%;
 }
-/* line 149, ../sass/screen.sass */
+/* line 147, ../sass/screen.sass */
 .flexWrapper .flex-container, .indent .flex-container {
   background: #f5f7f6;
   -moz-box-shadow: 1px 1px 3px 1px #cccccc;
@@ -320,11 +314,11 @@ header #logo h2 {
   padding: 5%;
 }
 
-/* line 157, ../sass/screen.sass */
+/* line 154, ../sass/screen.sass */
 .featuredWork {
   text-align: center;
 }
-/* line 159, ../sass/screen.sass */
+/* line 156, ../sass/screen.sass */
 .featuredWork li {
   display: -moz-inline-box;
   -moz-box-orient: vertical;
@@ -338,7 +332,7 @@ header #logo h2 {
 .featuredWork li {
   *display: inline;
 }
-/* line 164, ../sass/screen.sass */
+/* line 161, ../sass/screen.sass */
 .featuredWork li a {
   display: block;
   background: #141720;
@@ -352,46 +346,47 @@ header #logo h2 {
   -khtml-border-radius: 10px;
   border-radius: 10px;
 }
-/* line 171, ../sass/screen.sass */
+/* line 168, ../sass/screen.sass */
 .featuredWork li a.featured_1 {
   background: #141720 url("../../images/featured/movitas_logo.png") no-repeat scroll 50% 50%;
 }
-/* line 173, ../sass/screen.sass */
+/* line 170, ../sass/screen.sass */
 .featuredWork li a.featured_1:active, .featuredWork #nav li.active a.featured_1, #nav .featuredWork li.active a.featured_1, .featuredWork li a.featured_1:hover {
   background: #141720 url("../../images/featured/movitas_img.png") no-repeat scroll 50% 50%;
 }
-/* line 175, ../sass/screen.sass */
+/* line 172, ../sass/screen.sass */
 .featuredWork li a.featured_2 {
   background: #141720 url("../../images/featured/traveler_connect_logo.png") no-repeat scroll 50% 50%;
 }
-/* line 177, ../sass/screen.sass */
+/* line 174, ../sass/screen.sass */
 .featuredWork li a.featured_2:active, .featuredWork #nav li.active a.featured_2, #nav .featuredWork li.active a.featured_2, .featuredWork li a.featured_2:hover {
   background: #141720 url("../../images/featured/traveler_connect_img.png") no-repeat scroll 50% 50%;
 }
-/* line 179, ../sass/screen.sass */
+/* line 176, ../sass/screen.sass */
 .featuredWork li a.featured_3 {
   background: #141720 url("../../images/featured/avaya_logo.png") no-repeat scroll 50% 50%;
 }
-/* line 181, ../sass/screen.sass */
+/* line 178, ../sass/screen.sass */
 .featuredWork li a.featured_3:active, .featuredWork #nav li.active a.featured_3, #nav .featuredWork li.active a.featured_3, .featuredWork li a.featured_3:hover {
   background: #141720 url("../../images/featured/avaya_img.png") no-repeat scroll 50% 50%;
 }
-/* line 183, ../sass/screen.sass */
+/* line 180, ../sass/screen.sass */
 .featuredWork li a.featured_4 {
   background: #141720 url("../../images/featured/media_giraffes_logo.png") no-repeat scroll 50% 50%;
 }
-/* line 185, ../sass/screen.sass */
+/* line 182, ../sass/screen.sass */
 .featuredWork li a.featured_4:active, .featuredWork #nav li.active a.featured_4, #nav .featuredWork li.active a.featured_4, .featuredWork li a.featured_4:hover {
   background: #141720 url("../../images/featured/media_giraffes_img.png") no-repeat scroll 50% 50%;
 }
 
-/* line 189, ../sass/screen.sass */
+/* line 186, ../sass/screen.sass */
 .indent {
   width: 60%;
   float: left;
   margin-right: 4%;
+  margin-bottom: 20px;
 }
-/* line 194, ../sass/screen.sass */
+/* line 192, ../sass/screen.sass */
 .indent .content {
   background: #f5f7f6;
   -moz-box-shadow: 1px 1px 3px 1px #cccccc;
@@ -407,13 +402,13 @@ header #logo h2 {
   padding: 5%;
 }
 
-/* line 200, ../sass/screen.sass */
+/* line 198, ../sass/screen.sass */
 .sidebar {
   float: left;
   width: 30%;
 }
 
-/* line 205, ../sass/screen.sass */
+/* line 203, ../sass/screen.sass */
 .resume img {
   border: 4px solid white;
   -moz-border-radius: 5px;
@@ -424,7 +419,7 @@ header #logo h2 {
   border-radius: 5px;
 }
 
-/* line 209, ../sass/screen.sass */
+/* line 207, ../sass/screen.sass */
 img.aboutMeImg {
   float: left;
   margin-right: 1em;
@@ -437,7 +432,7 @@ img.aboutMeImg {
   border-radius: 5px;
 }
 
-/* line 216, ../sass/screen.sass */
+/* line 214, ../sass/screen.sass */
 .clientList li {
   display: -moz-inline-box;
   -moz-box-orient: vertical;
@@ -450,7 +445,7 @@ img.aboutMeImg {
 .clientList li {
   *display: inline;
 }
-/* line 219, ../sass/screen.sass */
+/* line 217, ../sass/screen.sass */
 .clientList li a {
   color: white;
   display: block;
@@ -463,38 +458,38 @@ img.aboutMeImg {
   -khtml-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 225, ../sass/screen.sass */
+/* line 223, ../sass/screen.sass */
 .clientList li a:hover, .clientList li a:active, .clientList #nav li.active a, #nav .clientList li.active a {
   background: #aaaaaa;
 }
 
-/* line 230, ../sass/screen.sass */
+/* line 228, ../sass/screen.sass */
 .contactInfo {
   float: left;
   width: 40%;
   text-align: right;
   margin: 0 5%;
 }
-/* line 235, ../sass/screen.sass */
+/* line 233, ../sass/screen.sass */
 .contactInfo a {
   color: #525252;
   text-decoration: none;
   display: block;
 }
 
-/* line 240, ../sass/screen.sass */
+/* line 238, ../sass/screen.sass */
 .mediaList {
   float: right;
   width: 40%;
   text-align: left;
   margin: 0 5%;
 }
-/* line 245, ../sass/screen.sass */
+/* line 243, ../sass/screen.sass */
 .mediaList li {
   display: inline;
   margin: 5px;
 }
-/* line 248, ../sass/screen.sass */
+/* line 246, ../sass/screen.sass */
 .mediaList li a {
   display: -moz-inline-box;
   -moz-box-orient: vertical;
@@ -514,15 +509,59 @@ img.aboutMeImg {
 .mediaList li a {
   *display: inline;
 }
-/* line 254, ../sass/screen.sass */
+/* line 252, ../sass/screen.sass */
 .mediaList li a.facebook:hover, .mediaList li a.facebook:active, .mediaList #nav li.active a.facebook, #nav .mediaList li.active a.facebook {
   background: #39599f;
 }
-/* line 257, ../sass/screen.sass */
+/* line 255, ../sass/screen.sass */
 .mediaList li a.twitter:hover, .mediaList li a.twitter:active, .mediaList #nav li.active a.twitter, #nav .mediaList li.active a.twitter {
   background: #45b0e3;
 }
-/* line 260, ../sass/screen.sass */
+/* line 258, ../sass/screen.sass */
 .mediaList li a.linkedin:hover, .mediaList li a.linkedin:active, .mediaList #nav li.active a.linkedin, #nav .mediaList li.active a.linkedin {
   background: #82c6da;
+}
+
+@media only screen and (max-width: 768px) {
+  /* line 263, ../sass/screen.sass */
+  header .contentWrap {
+    padding-bottom: 0;
+  }
+  /* line 265, ../sass/screen.sass */
+  header #logo {
+    width: 100%;
+  }
+
+  /* line 267, ../sass/screen.sass */
+  #nav {
+    float: left;
+  }
+
+  /* line 269, ../sass/screen.sass */
+  .flexWrapper, .indent, .indent {
+    padding: 15px 3%;
+  }
+
+  /* line 271, ../sass/screen.sass */
+  .indent {
+    width: 90%;
+    float: none;
+    margin: 0 auto 20px;
+  }
+
+  /* line 275, ../sass/screen.sass */
+  .sidebar {
+    width: 90%;
+    float: none;
+    margin: 0 auto 20px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  /* line 281, ../sass/screen.sass */
+  .contactInfo, .mediaList {
+    width: 90%;
+    text-align: center;
+    margin: 10px auto;
+    float: none;
+  }
 }
